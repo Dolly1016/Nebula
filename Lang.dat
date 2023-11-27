@@ -18,11 +18,15 @@
 "certification.unmatchedBuild" : "Unmatched Build"
 "certification.unmatchedBuild.detail" : "This player has a different version of NoS installed.<br>Guide they to get the same version of NoS from <b>the title screen</b>."
 "certification.unmatchedBuild.client" : "The host has a different version of NoS installed.<br>Get the same version of NoS from <b>the title screen</b>!"
+"certification.unmatchedAddon" : "Unmatched Addon"
+"certification.unmatchedAddon.detail" : "This player's add-on configuration is different.<br>Some add-ons must be installed by everyone."
+"certification.unmatchedAddon.client" : "The add-on configuration is different.<br>Some add-ons must be installed by everyone."
 
 # UI
 
 "ui.dialog.yes" : "Yes"
 "ui.dialog.no" : "No"
+"ui.dialog.ok" : "OK"
 "ui.dialog.exit" : "Exit"
 "ui.common.loading" : "Now Loading..."
 "ui.update.waitFinishing" : "Wait for updating..."
@@ -88,9 +92,14 @@
 "options.map.customization.skeld.useAdmin" : "Admin Console"
 "options.map.customization.skeld.cafeteriaVent" : "Extra Vent (Cafeteria)"
 "options.map.customization.skeld.storageVent" : "Extra Vent (Storage)"
+"options.map.customization.skeld.reactorDuration" : "Reactor Sabo."
+"options.map.customization.skeld.lifeSupportDuration" : "O2 Sabo."
 "options.map.customization.mira.useAdmin" : "Admin Console"
+"options.map.customization.mira.reactorDuration" : "Reactor Sabo."
+"options.map.customization.mira.lifeSupportDuration" : "O2 Sabo."
 "options.map.customization.polus.useAdmin" : "Admin Console"
 "options.map.customization.polus.specimenVent" : "Extra Vent (Specimen Room)"
+"options.map.customization.polus.reactorDuration" : "Reactor Sabo."
 "options.map.customization.airship.useCockpitAdmin" : "Admin Console (Cockpit)"
 "options.map.customization.airship.useRecordsAdmin" : "Admin Console (Records)"
 "options.map.customization.airship.meetingVent" : "Extra Vent (Meeting Room)"
@@ -100,10 +109,19 @@
 "options.map.customization.airship.vaultWiring" : "Extra Wiring Console (Vault)"
 "options.map.customization.airship.hallwayWiring" : "Extra Wiring Console (Hallway)"
 "options.map.customization.airship.medicalWiring" : "Extra Wiring Console (Medical)"
+"options.map.customization.airship.heliDuration" : "Heli Sabo."
+"options.map.customization.fungle.simpleLaboratory" : "Simple Laboratory"
+"options.map.customization.fungle.thinFog" : "Thin Fog"
+"options.map.customization.fungle.glowingCampfire" : "Glowing Campfire"
+"options.map.customization.fungle.glowingMushroom" : "Glowing Mushroom"
+"options.map.customization.fungle.quickPaceDoorMinigame" : "Quick Pace Door Minigame"
+"options.map.customization.fungle.reactorDuration" : "Reactor Sabo."
 
 "options.meeting" : "Meeting Options"
 "options.meeting.detail" : "About meeting"
 "options.meeting.noticeExtraVictims" : "Notice Extra Victims"
+"options.meeting.deathPenalty" : "Death Penalty"
+"options.meeting.numOfMeeting" : "Num Of Meetings"
 
 "options.consoleRestriction" : "Console Restriction"
 "options.consoleRestriction.detail" : "About restriction for vitals, admin and cameras"
@@ -151,6 +169,7 @@
 
 # Roles
 
+"role.general.canUseVent" : "Can Use Vent"
 "role.general.ventOption" : "Vent Option"
 "role.general.ventCoolDown" : "Cool Down"
 "role.general.ventCoolDown.short" : "Cool"
@@ -193,6 +212,16 @@
 "role.bait.blurb" : "Bait Your Enemies"
 "options.role.bait.detail" : "Your murderer reports your body immediately."
 "options.role.bait.showKillFlash" : "Show Kill Flash"
+"options.role.bait.reportDelay" : "Report Delay"
+"options.role.bait.reportDelayDispersion" : "Report Delay Dispersion"
+"options.role.bait.canSeeVentFlash" : "Can See Vent Flash"
+
+"role.busker.name" : "Busker"
+"role.busker.short" : "B"
+"role.busker.blurb" : "Unfailing Wonder"
+"options.role.busker.detail" : "Busker disguises your death.<br>If you revive within the time limit,your body will teleport to your ghost's position."
+"options.role.busker.pseudocideCoolDown" : "Pseudocide Cool Down"
+"options.role.busker.pseudocideDuration" : "Pseudocide Duration"
 
 "role.comet.name" : "Comet"
 "role.comet.short" : "C"
@@ -201,6 +230,7 @@
 "options.role.comet.blazeCoolDown" : "Blaze Cool Down"
 "options.role.comet.blazeSpeed" : "Blaze Speed"
 "options.role.comet.blazeDuration" : "Blaze Duration"
+"options.role.comet.blazeVisionRate" : "Blaze Vision Rate"
 
 "role.doctor.name" : "Doctor"
 "role.doctor.short" : "D"
@@ -218,6 +248,8 @@
 "options.role.necromancer.reviveCoolDown" : "Revive Cool Down"
 "options.role.necromancer.reviveDuration" : "Revive Duration"
 "options.role.necromancer.detectedRange" : "Detected Range"
+"options.role.necromancer.reviveMinRange" : "Revive Room Min Distance"
+"options.role.necromancer.reviveMaxRange" : "Revive Room Max Distance"
 "role.necromancer.phantomMessage" : "Please take me to %ROOM%..."
 
 "role.niceGuesser.name" : "Nice Guesser"
@@ -235,6 +267,10 @@
 "role.madmate.short" : "Ma"
 "role.madmate.blurb" : "Assist Impostors"
 "options.role.madmate.detail" : "Madmate is on the side of imposters.<br>Obstruct crewmates to help imposters win."
+"options.role.madmate.canIdentifyImpostors" : "Can Identify Impostors"
+"options.role.madmate.embroilVotersOnExile" : "Embroil Voters On Exile"
+"options.role.madmate.canFixLight" : "Can Fix Light"
+"options.role.madmate.canFixComms" : "Can Fix Comms"
 
 "role.mayor.name" : "Mayor"
 "role.mayor.short" : "M"
@@ -254,6 +290,7 @@
 "options.role.phosphorus.placeCoolDown" : "Place Cool Down"
 "options.role.phosphorus.lampCoolDown" : "Lamp Cool Down"
 "options.role.phosphorus.lampDuration" : "Lamp Duration"
+"options.role.phosphorus.lampStrength" : "Lamp Strength"
 
 "role.provocateur.name" : "Provocateur"
 "role.provocateur.short" : "P"
@@ -268,6 +305,7 @@
 "role.seer.blurb" : "You Will See Players Die"
 "options.role.seer.detail" : "Seer can see the ghosts to find out where victims died."
 "options.role.seer.ghostDuration" : "Ghost Duration"
+"options.role.seer.canSeeGhostsInShadow" : "Can See Ghosts In Shadow"
 
 "role.sheriff.name" : "Sheriff"
 "role.sheriff.short" : "S"
@@ -275,6 +313,8 @@
 "options.role.sheriff.detail" : "Sheriff can kill other members.<br>Attempting to kill a Crewmate will die instead."
 "options.role.sheriff.canKillMadmate" : "Can Kill Madmate"
 "options.role.sheriff.killCoolDown" : "Kill Cool Down"
+"options.role.sheriff.numOfShots" : "Num Of Shots"
+"options.role.sheriff.canKillHidingPlayer" : "Can Kill Hiding Player"
 
 # Impostor Roles
 
@@ -282,6 +322,7 @@
 "role.impostor.short" : "I"
 "role.impostor.blurb" : "Kill and Sabotage"
 "options.role.impostor.detail" : "Impostors with no special abilities."
+"options.role.impostor.canKillHidingPlayer" : "Can Kill Hiding Player"
 
 "role.bountyHunter.name" : "Bounty Hunter"
 "role.bountyHunter.short" : "B"
@@ -319,6 +360,18 @@
 "options.role.evilTrapper.killTrapSoundDistance" : "Kill Trap Sound Distance"
 "options.role.evilTrapper.costOfKillTrap" : "Cost Of Kill Trap"
 
+"role.illusioner.name" : "Illusioner"
+"role.illusioner.short" : "Il"
+"role.illusioner.blurb" : "What Wonderful True Love!"
+"options.role.illusioner.detail" : "Illusioner combines the abilities of Painter and Morphing."
+"options.role.illusioner.sampleCoolDown" : "Sample Cool Down"
+"options.role.illusioner.morphCoolDown" : "Morph Cool Down"
+"options.role.illusioner.morphDuration" : "Morph Duration"
+"options.role.illusioner.paintCoolDown" : "Paint Cool Down"
+"options.role.illusioner.loseSampleOnMeeting" : "Lose Sample On Meeting"
+"options.role.illusioner.transformAfterMeeting" : "Transform After Meeting"
+"options.role.illusioner.sampleOriginalLook" : "Sample Original Look"
+
 "role.jailer.name" : "Jailer"
 "role.jailer.short" : "J"
 "role.jailer.blurb" : "Be Under the Control"
@@ -326,6 +379,15 @@
 "options.role.jailer.canMoveWithMapWatching" : "Can Move With Map Watching"
 "options.role.jailer.canIdentifyDeadBodies" : "Can Identify Dead Bodies"
 "options.role.jailer.canIdentifyImpostors" : "Can Identify Impostors"
+
+"role.marionette.name" : "Marionette"
+"role.marionette.short" : "Ma"
+"role.marionette.blurb" : "There Is No Intention"
+"options.role.marionette.detail" : "Marionette can place the decoy.<br>they and the decoy swap position each other."
+"options.role.marionette.placeCoolDown" : "Place Cool Down"
+"options.role.marionette.swapCoolDown" : "Swap Cool Down"
+"options.role.marionette.decoyDuration" : "Decoy Duration"
+"options.role.marionette.canSeeDecoyInShadow" : "Can See Decoy In Shadow"
 
 "role.morphing.name" : "Morphing"
 "role.morphing.short" : "Mo"
@@ -360,7 +422,7 @@
 "options.role.reaper.detail" : "Reaper can drag dead bodies."
 
 "role.sniper.name" : "Sniper"
-"role.sniper.short" : "S"
+"role.sniper.short" : "Sn"
 "role.sniper.blurb" : "Shoot Up!"
 "options.role.sniper.detail" : "Sniper has a rifle to snipe players.<br>When sniper shoots, players nearby they see a notification."
 "options.role.sniper.snipeCoolDown" : "Snipe Cool Down"
@@ -368,6 +430,18 @@
 "options.role.sniper.shotEffectiveRange" : "Shot Effective Range"
 "options.role.sniper.shotNoticeRange" : "Snipe Notice Range"
 "options.role.sniper.storeRifleOnFire" : "Store Rifle On Fire"
+"options.role.sniper.canSeeRifleInShadow" : "Can See Rifle In Shadow"
+"options.role.sniper.canKillHidingPlayer" : "Can Kill Hiding Player"
+
+"role.stirrer.name" : "Stirrer"
+"role.stirrer.short" : "St"
+"role.stirrer.blurb" : "Hallucination Kills You"
+"options.role.stirrer.detail" : "stirrer can inflict fake sabotage on players.<br>Fake emergency sabotage kills unresolved players."
+"options.role.stirrer.stirCoolDown" : "Stir Cool Down"
+"options.role.stirrer.sabotageCharge" : "Sabotage Charge"
+"options.role.stirrer.sabotageMaxCharge" : "Sabotage Max Charge"
+"options.role.stirrer.sabotageCoolDown" : "Sabotage Cool Down"
+"options.role.stirrer.sabotageInterval" : "Sabotage Interval"
 
 # Neutral Roles
 
@@ -377,6 +451,12 @@
 "options.role.arsonist.detail" : "Arsonist douses all of the alive to burn."
 "options.role.arsonist.douseCoolDown" : "Douse Cool Down"
 "options.role.arsonist.douseDuration" : "Douse Duration"
+
+"role.chainShifter.name" : "Chain Shifter"
+"role.chainShifter.short" : "C"
+"role.chainShifter.blurb" : "Suffer The Calamity"
+"options.role.chainShifter.detail" : "Chain Shifter has no way to win."
+"options.role.chainShifter.shiftCoolDown" : "Shift Cool Down"
 
 "role.jackal.name" : "Jackal"
 "role.jackal.short" : "J"
@@ -399,6 +479,19 @@
 "role.jester.blurb" : "Get Voted Out"
 "options.role.jester.detail" : "Jester schemes to be exiled to win.<br>Crewmates must not vote for the Jester!"
 "options.role.jester.canDragDeadBody" : "Can Drag Dead Body"
+"options.role.jester.canFixComm" : "Can Fix Comms"
+"options.role.jester.canFixLight" : "Can Fix Light"
+
+"role.paparazzo.name" : "Paparazzo"
+"role.paparazzo.short" : "P"
+"role.paparazzo.blurb" : "Take a Best Shot!"
+"role.paparazzo.taskText" : "Take a Photo and Disclose (%DETAIL%)"
+"role.paparazzo.taskTextSubject" : "Subjects: %CS%/%GS%"
+"role.paparazzo.taskTextDisclosed" : "Disclosed: %CD%/%GD%"
+"options.role.paparazzo.detail" : "Paparazzo takes a photo and disclose it at a meeting."
+"options.role.paparazzo.shotCoolDown" : "Shot Cool Down"
+"options.role.paparazzo.requiredSubjects" : "Required Subjects"
+"options.role.paparazzo.requiredDisclosed" : "Required Disclosed"
 
 "role.vulture.name" : "Vulture"
 "role.vulture.short" : "V"
@@ -435,8 +528,10 @@
 "teams.crewmate" : "Crewmate"
 "teams.impostor" : "Impostor"
 "teams.arsonist" : "Arsonist"
+"teams.chainShifter" : "Chain Shifter"
 "teams.jackal" : "Jackal"
 "teams.jester" : "Jester"
+"teams.paparazzo" : "Paparazzo"
 "teams.vulture" : "Vulture"
 
 # Location
@@ -474,6 +569,9 @@
 "location.polus.admin" : "Admin"
 "location.polus.comms" : "Comms."
 "location.polus.boilerRoom" : "Boiler Room"
+"location.polus.decontamination" : "Decontamination"
+"location.polus.decontamination2" : "Decontamination"
+"location.polus.decontamination3" : "Decontamination"
 "location.polus.drill" : "Drill"
 "location.polus.dropship" : "Dropship"
 "location.polus.ejection" : "Ejection"
@@ -506,6 +604,26 @@
 "location.airship.toilet" : "Toilet"
 "location.airship.vault" : "Vault"
 "location.airship.viewingDeck" : "Viewing Deck"
+"location.fungle.beach" : "Beach"
+"location.fungle.cafeteria" : "Cafeteria"
+"location.fungle.campfire" : "Campfire"
+"location.fungle.comms" : "Comms."
+"location.fungle.dropship" : "Dropship"
+"location.fungle.fishingDock" : "Dock"
+"location.fungle.greenhouse" : "Greenhouse"
+"location.fungle.highlands" : "Highlands"
+"location.fungle.jungle" : "Jungle"
+"location.fungle.kitchen" : "Kitchen"
+"location.fungle.laboratory" : "Laboratory"
+"location.fungle.lookout" : "Lookout"
+"location.fungle.meetingRoom" : "Meeting Room"
+"location.fungle.miningPit" : "Mining Pit"
+"location.fungle.reactor" : "Reactor"
+"location.fungle.recRoom" : "Splash Zone"
+"location.fungle.splashZone" : "Splash Zone"
+"location.fungle.storage" : "Storage"
+"location.fungle.sleepingQuarters" : "The Dorm"
+"location.fungle.upperEngine" : "Upper Engine"
 
 # Button
 
@@ -513,23 +631,32 @@
 "button.label.blaze" : "blaze"
 "button.label.camo" : "camo"
 "button.label.clean" : "clean"
+"button.label.destroy" : "destroy"
 "button.label.douse" : "douse"
 "button.label.drag" : "drag"
 "button.label.eat" : "eat"
 "button.label.embroil" : "embroil"
 "button.label.equip" : "equip"
+"button.label.fakeSabotage" : "fake sabo"
 "button.label.ignite" : "ignite"
 "button.label.kill" : "kill"
 "button.label.lantern" : "lantern"
+"button.label.monitor" : "monitor"
 "button.label.morph" : "morph"
 "button.label.operate" : "operate"
 "button.label.paint" : "paint"
 "button.label.place" : "place"
+"button.label.pseudocide" : "pseudocide"
+"button.label.rejoin" : "rejoin"
 "button.label.release" : "release"
 "button.label.revive" : "revive"
 "button.label.sample" : "sample"
-"button.label.snipe" : "snipe"
+"button.label.shift" : "shift"
+"button.label.shot" : "shot"
 "button.label.sidekick" : "sidekick"
+"button.label.snipe" : "snipe"
+"button.label.stir" : "stir"
+"button.label.swap" : "swap"
 "button.label.throw" : "throw"
 "button.label.unequip" : "unequip"
 "button.label.vital" : "vitals"
@@ -561,6 +688,7 @@
 "statistics.events.embroil" : "Embroil"
 "statistics.events.trap" : "Entrap"
 "statistics.events.guess" : "Guess"
+"statistics.events.fakeSabotage" : "Fake Sabotage"
 
 # States
 
@@ -576,6 +704,7 @@
 "state.suicide" : "Suicide"
 "state.trapped" : "Trapped"
 "state.revived" : "Revived"
+"state.deranged" : "Deranged"
 
 # Endings
 
@@ -586,6 +715,7 @@
 "end.jester" : "Jester Wins%EXTRA%"
 "end.vulture" : "Vulture Wins%EXTRA%"
 "end.lover" : "Lovers Win%EXTRA%"
+"end.paparazzo" : "Paparazzo Win%EXTRA%"
 "end.nogame" : "No Game"
 
 "end.extra.lover" : " <color=#FFFFFF>with</color> Lovers"
@@ -603,6 +733,7 @@
 "help.command.quickStart" : "Quick Start"
 "help.command.cancelStarting" : "Cancel Starting"
 "help.command.console" : "Console"
+"help.command.saveResult" : "Save Result Image"
 
 # Voice Chat
 
@@ -652,12 +783,41 @@
 "input.command" : "Command"
 "input.screenshot" : "Screenshot"
 "input.mute" : "Mute"
+"input.help" : "Help"
 "input.recording" : "Recording..."
 
 # Client Configurations
 
-"config.client.keyBindings" : "Key Bindings" 
+"config.client.keyBindings" : "Key Bindings"
+"config.client.vcSettings" : "VC Settings"
+"config.client.vcRejoin" : "Rejoin VC"
 "config.client.outputHash" : "Output Hash"
+"config.client.noiseReduction" : "Noise Reduction"
+"config.client.processorAffinity" : "Processor Affinity"
+"config.client.processorAffinity.dontCare" : "Off"
+"config.client.processorAffinity.dualCoreHT" : "Dual Core (HT)"
+"config.client.processorAffinity.dualCore" : "Dual Core"
+"config.client.processorAffinity.singleCore" : "Single Core"
+
+# Preset
+
+"preset.preset" : "Preset"
+"preset.saveAs" : "Save As..."
+"preset.enterPresetName" : "Please enter a preset name."
+"preset.save" : "Save"
+"preset.reload" : "Reload"
+"preset.saveSuccess" : "Saving is complete."
+"preset.loadSuccess" : "Preset loaded successfully."
+"preset.loadFailed" : "Failed to load preset."
+
+# Sabotage
+
+"sabotage.reactor" : "Reactor"
+"sabotage.laboratory" : "Seismic"
+"sabotage.lifeSupport" : "O2"
+"sabotage.heliSabotage" : "Heli"
+"sabotage.comms" : "Comms"
+"sabotage.electrical" : "Light"
 
 # Developer Studio
 
@@ -674,6 +834,7 @@
 "devStudio.ui.main.title" : "My Add-ons"
 "devStudio.ui.addon.build" : "Export Addon"
 "devStudio.ui.addon.document" : "Documents"
+"devStudio.ui.addon.cosmetics" : "Cosmetics"
 "devStudio.ui.addon.language" : "Language"
 "devStudio.ui.document.isDuplicatedId" : "This document has been existed already."
 "devStudio.ui.document.isUsingId" : "<b>Great!</b> It is used standardly!"
@@ -694,3 +855,42 @@
 "devStudio.ui.document.editor.document" : "Document ID"
 "devStudio.ui.hint.requiredText" : "#Required"
 "devStudio.ui.hint.duplicatedId" : "#Already existed"
+"devStudio.ui.cosmetics.hats" : "Hats"
+"devStudio.ui.cosmetics.visors" : "Visors"
+"devStudio.ui.cosmetics.nameplates" : "Nameplates"
+"devStudio.ui.cosmetics.packages" : "Packages"
+"devStudio.ui.cosmetics.contents.main" : "Main"
+"devStudio.ui.cosmetics.contents.back" : "Back"
+"devStudio.ui.cosmetics.contents.flipped" : "Flipped"
+"devStudio.ui.cosmetics.contents.backFlipped" : "Back Flipped"
+"devStudio.ui.cosmetics.contents.climbUp" : "Climb Up"
+"devStudio.ui.cosmetics.contents.climbUpBack" : "Climb Up Back"
+"devStudio.ui.cosmetics.contents.climbDown" : "Climb Down"
+"devStudio.ui.cosmetics.contents.climbDownBack" : "Climb Down Back"
+"devStudio.ui.cosmetics.contents.image" : "Image"
+"devStudio.ui.cosmetics.anim.idle" : "Idle"
+"devStudio.ui.cosmetics.anim.run" : "Run"
+"devStudio.ui.cosmetics.anim.climbUp" : "Climb Up"
+"devStudio.ui.cosmetics.anim.climbDown" : "Climb Down"
+"devStudio.ui.cosmetics.anim.enterVent" : "Enter Vent"
+"devStudio.ui.cosmetics.anim.exitVent" : "Exit Vent"
+"devStudio.ui.cosmetics.anim.jump" : "Jump"
+"devStudio.ui.cosmetics.attributes.id" : "ID"
+"devStudio.ui.cosmetics.attributes.format" : "Format"
+"devStudio.ui.cosmetics.attributes.image" : "Image"
+"devStudio.ui.cosmetics.attributes.name" : "Name"
+"devStudio.ui.cosmetics.attributes.author" : "Author"
+"devStudio.ui.cosmetics.attributes.package" : "Package"
+"devStudio.ui.cosmetics.attributes.idle" : "Idle"
+"devStudio.ui.cosmetics.attributes.move" : "Move"
+"devStudio.ui.cosmetics.attributes.climb" : "Climb"
+"devStudio.ui.cosmetics.attributes.enterVent" : "Enter Vent"
+"devStudio.ui.cosmetics.attributes.exitVent" : "Exit Vent"
+"devStudio.ui.cosmetics.attributes.preview" : "Preview"
+"devStudio.ui.cosmetics.attributes.adaptive" : "Adaptive"
+"devStudio.ui.cosmetics.attributes.bounce" : "Bounce"
+"devStudio.ui.cosmetics.attributes.hideHands" : "Hide Hands"
+"devStudio.ui.cosmetics.attributes.isSkinny" : "Is Skinny"
+"devStudio.ui.cosmetics.attributes.behindHat" : "Behind Hat"
+"devStudio.ui.cosmetics.hint.needToSetTitle" : "Enter the costume's name!"
+"devStudio.ui.cosmetics.failedToCopy" : "Failed to copy the file."
