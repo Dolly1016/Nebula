@@ -29,4 +29,4 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 [BepInEx](https://github.com/BepInEx) ゲームの関数をフックするために使用しています。\
 [The Other Roles](https://github.com/Eisbison/TheOtherRoles) このMODの着想の根源はここからのものです。\
 [TheOtherRoles: GM Edition](https://github.com/yukinogatari/TheOtherRoles-GM) MadmateのアイデアはこのMODからのものです。\
-[Town Of Impostors](https://github.com/Town-of-Impostors/TownOfImpostors) Sniper,Necromancer,MayorのアイデアはこのMODからのものです。\
+[Town Of Impostors](https://github.com/Town-of-Impostors/TownOfImpostors) Sniper,Necromancer,MayorのアイデアはこのMODからのものです。
