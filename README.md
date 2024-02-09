@@ -7,7 +7,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 # 導入方法
 
 まず、SteamからAmong Usの実行ファイルがある場所を見つけてください。(Steamのゲームライブラリ⇒左サイドメニューから Among Us を右クリック⇒プロパティ⇒インストール済みファイル⇒参照)\
-  Among Us<ins>フォルダ</ins>を同階層にコピーし、適当にリネーム("Among Us Nebula"など)してください。\
+実行ファイルが格納されているAmong Us<ins>フォルダ</ins>を同階層にコピーし、適当にリネーム("Among Us Nebula"など)してください。\
 \
 [最新版](https://github.com/Dolly1016/Nebula/releases/latest)からNebula.zipファイルをダウンロードし、解凍してください。\
 解凍したフォルダの中身を、リネームしたフォルダの中に配置してください。Among Us.exeとBepInExフォルダが同じ階層に並んでいれば正しい位置に配置できています。\
