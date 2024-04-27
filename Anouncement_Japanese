@@ -1,0 +1,18 @@
+[
+  {
+    "id" : "100000",
+    "title" : "NoSはいまテストをしています！　前",
+    "subtitle" : "溢れ出んばかりのこのテストって感じ！",
+    "short" : "NoS Test 1",
+    "detail" : "こんにちは！これはテストのニュースです。\n\nそれでは、今日も良い船旅を！\n\nNebula on the Ship, Dolly",
+    "date" : "2024-04-21T18:00:00Z"
+  },
+  {
+    "id" : "100001",
+    "title" : "NoSはいまテストをしています！　後",
+    "subtitle" : "まだまだ溢れ出んばかりって感じ！",
+    "short" : "NoS Test 2",
+    "detail" : "こんにちは！これは後半のニュースです。\n\nそれでは、今日も良い船旅を！\n\nNebula on the Ship, Dolly",
+    "date" : "2024-04-27T18:00:00Z"
+  }
+]
