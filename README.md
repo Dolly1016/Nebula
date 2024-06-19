@@ -6,7 +6,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 # 導入方法
 
-インストーラから導入できます。インストールに際して、Among Usを所有している必要があります。
+インストーラから導入できます。インストールに際して、Among Usを所有している必要があります。\
 ダウンロードはこちらから。 [NoS インストーラ](https://github.com/Dolly1016/Nebula/releases/download/v%2Cv2.4.2.3%2C104%2C1143/Nebula_on_the_Ship_Setup.exe)
 
 ### Among Usの実行ファイルの探し方
