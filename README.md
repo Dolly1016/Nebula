@@ -6,13 +6,13 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 # 導入方法
 
-まず、SteamからAmong Usの実行ファイルがある場所を見つけてください。(Steamのゲームライブラリ⇒左サイドメニューから Among Us を右クリック⇒プロパティ⇒インストール済みファイル⇒参照)\
+インストーラから導入できます。インストールに際して、Among Usを所有している必要があります。
+ダウンロードはこちらから。 [NoS インストーラ](https://github.com/Dolly1016/Nebula/releases/download/v%2Cv2.4.2.3%2C104%2C1143/Nebula_on_the_Ship_Setup.exe)
+
+### Among Usの実行ファイルの探し方
+SteamからAmong Usの実行ファイルがある場所を見つけてください。(Steamのゲームライブラリ⇒左サイドメニューから Among Us を右クリック⇒プロパティ⇒インストール済みファイル⇒参照)\
 実行ファイルが格納されているAmong Us<ins>フォルダ</ins>を同階層にコピーし、適当にリネーム("Among Us Nebula"など)してください。\
 \
-[こちら](https://github.com/Dolly1016/Nebula/releases/download/s%2CSnapshot_24.06.19a%2C104%2C1140/Nebula.zip)からNebula.zipファイルをダウンロードし、解凍してください。\
-解凍したフォルダの中身を、リネームしたフォルダの中に配置してください。Among Us.exeとBepInExフォルダが同じ階層に並んでいれば正しい位置に配置できています。\
-\
-Among Us.exeをダブルクリックしてゲームを起動してください。\
 初回の起動には1分ほど時間がかかることもあります。
 
 # ご利用に関する留意点
