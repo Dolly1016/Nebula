@@ -38,6 +38,13 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 
 いずれも、敬称略
 
+### Illust.
+- かつどん
+- セオノ
+- Dolly
+
+### Source Code
+
 [BepInEx](https://github.com/BepInEx) ゲームの関数をフックするために使用しています。\
 [The Other Roles](https://github.com/Eisbison/TheOtherRoles) このMODの着想の根源はここからのものです。また、クレジットの掲載の為、一部の画像を借用しています。\
 [TheOtherRoles: GM Edition](https://github.com/yukinogatari/TheOtherRoles-GM) MadmateのアイデアはこのMODからのものです。\
