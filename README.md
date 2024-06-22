@@ -46,6 +46,9 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 ### Source Code
 
 [BepInEx](https://github.com/BepInEx) ゲームの関数をフックするために使用しています。\
+
+### Idea
+
 [The Other Roles](https://github.com/Eisbison/TheOtherRoles) このMODの着想の根源はここからのものです。また、クレジットの掲載の為、一部の画像を借用しています。\
 [TheOtherRoles: GM Edition](https://github.com/yukinogatari/TheOtherRoles-GM) MadmateのアイデアはこのMODからのものです。\
 [Town Of Impostors](https://github.com/Town-of-Impostors/TownOfImpostors) Sniper,Necromancer,MayorのアイデアはこのMODからのものです。
