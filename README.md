@@ -9,15 +9,15 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 インストーラから導入できます。インストールに際して、Among Usを所有している必要があります。\
 ダウンロードはこちらから。 [NoS インストーラ](https://github.com/Dolly1016/Nebula/releases/download/v%2Cv2.4.2.3%2C104%2C1143/Nebula_on_the_Ship_Setup.exe)
 
-# Wiki
-
-Nebula on the Shipが追加する役職等に関する情報を掲載しています。 [Wikiはこちら](https://dolly1016.github.io/NebulaWiki)
-
 ### Among Usの実行ファイルの探し方
 SteamからAmong Usの実行ファイルがある場所を見つけてください。(Steamのゲームライブラリ⇒左サイドメニューから Among Us を右クリック⇒プロパティ⇒インストール済みファイル⇒参照)\
 実行ファイルが格納されているAmong Us<ins>フォルダ</ins>を同階層にコピーし、適当にリネーム("Among Us Nebula"など)してください。\
 \
 初回の起動には1分ほど時間がかかることもあります。
+
+# Wiki
+
+Nebula on the Shipが追加する役職等に関する情報を掲載しています。 [Wikiはこちら](https://dolly1016.github.io/NebulaWiki)
 
 # ご利用に関する留意点
 このMODはオリジナルの要素もありながら、The Other Rolesをはじめ多くのMODのアイデアを継承しています。\
