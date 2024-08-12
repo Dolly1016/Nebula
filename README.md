@@ -38,6 +38,9 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 バグ報告などの情報交換は[こちら](https://discord.gg/kHNZD4pq9E)でお願いいたします。\
 感想もお寄せくださいますととても嬉しいです。励みになります。
 
+# E-Mail
+お問い合わせは[nebula.on.the.ship@gmail.com](nebula.on.the.ship@gmail.com)まで。
+
 # クレジットとリソース
 
 いずれも、敬称略
