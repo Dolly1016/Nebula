@@ -31,6 +31,9 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 また、このMODについてもご紹介下さいましたら幸いです。\
 併用しているMODがあれば、その使用許諾等についてもそれぞれご確認ください。
 
+# ご支援
+[OFUSE](https://ofuse.me/nebulaontheship)\
+応援いただけると非常に嬉しいです！よろしくお願いいたします。
 
 # Twitter
 [開発者Twitter](https://twitter.com/NebulaOnTheShip)\
@@ -61,3 +64,4 @@ MODを使用している旨を分かりやすくご掲載のうえお使いく�
 [The Other Roles](https://github.com/Eisbison/TheOtherRoles) このMODの着想の根源はここからのものです。また、クレジットの掲載の為、一部の画像を借用しています。\
 [TheOtherRoles: GM Edition](https://github.com/yukinogatari/TheOtherRoles-GM) MadmateのアイデアはこのMODからのものです。\
 [Town Of Impostors](https://github.com/Town-of-Impostors/TownOfImpostors) Sniper,Necromancer,MayorのアイデアはこのMODからのものです。
+
